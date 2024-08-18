@@ -7,6 +7,10 @@ https://geek-docs.com/git/git-questions/72_git_how_do_i_switch_between_different
 ```
 $ git config --global core.sshCommand "ssh -i ~/.ssh/your_private_key"
 ```
+或者由于指定http通信，现在切换
+git remote rm origin
+git remote add origin git@user1.github.com:xxx/xxxxx.git
+
 可能无法clone项目
 解决办法是先取消代理：
 git config --global --unset http.proxy 
