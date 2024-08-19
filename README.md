@@ -12,6 +12,7 @@ git remote rm origin
 git remote add origin git@user1.github.com:xxx/xxxxx.git
 
 可能无法clone项目
+https://blog.csdn.net/qq_43546721/article/details/139506583
 解决办法是先取消代理：
 git config --global --unset http.proxy 
 git config --global --unset https.proxy
